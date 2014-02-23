@@ -35,3 +35,9 @@ Add the following directives to your Stylesheet manifest file:
 Every attempt is made to mirror the currently shipping Ionic version number wherever possible.
 
 The major, minor, and patch version numbers will always represent the Ionic version.
+
+## Breaking changes in v 0.9.25 
+
+All ionic directives now has ion- prefix, e.g. <list> is now <ion-list> 
+See http://forum.ionicframework.com/t/breaking-change-directives-will-now-be-prefixed-with-ion/1191
+
