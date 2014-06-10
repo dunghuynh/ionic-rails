@@ -14,14 +14,9 @@ Add the following directives to your JavaScript manifest file:
 
     //= require angular/angular
     //= require angular/angular-animate
-    //= require angular/angular-cookies
-    //= require angular/angular-loader
-    //= require angular/angular-mocks
     //= require angular/angular-resource
-    //= require angular/angular-route
     //= require angular/angular-sanitize
-    //= require angular/angular-scenario
-    //= require angular/angular-touch
+    //= require angular-ui/angular-ui-router
     //= require ionic
     //= require ionic-angular
 
@@ -41,3 +36,5 @@ The major, minor, and patch version numbers will always represent the Ionic vers
 All ionic directives now has ion- prefix, e.g. <list> is now <ion-list> 
 See http://forum.ionicframework.com/t/breaking-change-directives-will-now-be-prefixed-with-ion/1191
 
+Ion Refresher - If you are using pull to refresh, you must change your code
+See http://forum.ionicframework.com/t/breaking-change-ion-refresher-pull-to-refresh/1778

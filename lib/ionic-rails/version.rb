@@ -1,5 +1,5 @@
 module Ionic
   module Rails
-    VERSION = "0.9.25"
+    VERSION = "10.0.0-beta.6"
   end
 end
